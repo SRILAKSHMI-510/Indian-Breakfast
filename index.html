@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Breakfast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <div class="logo">Indian Breakfast</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#items">Items</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-icon">&#9776;</div>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="container">
+            <h1>Welcome to Indian Breakfast</h1>
+            <p>Discover the taste of authentic Indian morning meals.</p>
+            <img src="C:\Users\Lenovo\Documents\510\1.jpg" alt="Indian Breakfast">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Our Food</h2>
+            <p>Indian breakfast is diverse, healthy, and delicious.</p> 
+            <p>From South Indian dishes like Idli and Dosa to North Indian delights like Parathas and Chole Bhature, every region has its unique flavors.</p>
+            <p>Experience the vibrant flavors of India with our authentic breakfast offerings</p>
+        </div>
+    </section>
+
+    <!-- Items Section -->
+    <section id="items">
+        <div class="container">
+            <h2>Our Breakfast Items</h2>
+            <ul class="menu">
+                <li>🍽️ Idli with Sambar</li>
+                <li>🍽️ Dosa with Coconut Chutney</li>
+                <li>🍽️ Poha</li>
+                <li>🍽️ Upma</li>
+                <li>🍽️ Paratha with Curd</li>
+                <li>🍽️ Chole Bhature</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Email: srilakshmi@indianbreakfast.com</p>
+            <p>Phone: +91 9848753667</p>
+            <p>Address: Mumbai, India</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Indian Breakfast. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        // Toggle menu for mobile view
+        document.querySelector('.menu-icon').addEventListener('click', () => {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
+
+</body>
+</html>
